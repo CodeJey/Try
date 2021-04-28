@@ -1,6 +1,6 @@
 function loadPage() {
     var xhttp = new XMLHttpRequest();
-    xhttp.open("GET", "cd_catalog.xml", true)
+    xhttp.open("POST", "cd_catalog.xml", true)
     xhttp.send();
     xhttp.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
