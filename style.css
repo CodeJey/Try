@@ -1,0 +1,18 @@
+body{
+    background-color: rgba(137, 43, 226, 0.466);
+}
+#demo{
+    border: solid;
+    margin: 0 auto;
+    border: solid;
+    border-color: cyan;
+    border-width: 3px;
+    display: none;
+}
+td{
+    border: solid,;
+    margin: 0 auto;
+    border: solid;
+    border-color: brown;
+    border-width: 2px;
+}
